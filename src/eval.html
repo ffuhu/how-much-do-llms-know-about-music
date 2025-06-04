@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON QA Evaluator</title>
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    .qa-block { border: 1px solid #ccc; padding: 1em; margin-bottom: 2em; }
+    img { max-width: 300px; display: block; margin-bottom: 1em; }
+    textarea { width: 100%; min-height: 60px; margin-top: 0.5em; }
+    .save-btn { margin-top: 2em; padding: 0.5em 1em; font-size: 1em; }
+  </style>
+</head>
+<body>
+  <h1>JSON QA Evaluator</h1>
+  <input type="file" id="jsonFile" accept=".json">
+  <div id="qaContainer"></div>
+  <button class="save-btn" id="saveBtn" style="display:none;">Save Evaluations</button>
+
+  <script>
+    let originalFileName = '';
+    let qaData = [];
+    let evals = {};
+
+    document.getElementById('jsonFile').addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      originalFileName = file.name.replace(/\.json$/i, '');
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        try {
+          qaData = JSON.parse(evt.target.result);
+          if (!Array.isArray(qaData)) {
+            alert('Expected a JSON array at the top level.');
+            return;
+          }
+          renderQA();
+        } catch (err) {
+          alert('Invalid JSON: ' + err.message);
+        }
+      };
+      reader.readAsText(file);
+    });
+
+    function renderQA() {
+      const container = document.getElementById('qaContainer');
+      container.innerHTML = '';
+      evals = {};
+      qaData.forEach((item, idx) => {
+        const block = document.createElement('div');
+        block.className = 'qa-block';
+
+        // Image
+        if (item.image) {
+          const img = document.createElement('img');
+          img.src = item.image;
+          img.alt = 'QA Image';
+          block.appendChild(img);
+        }
+
+        // Question
+        const q = document.createElement('div');
+        q.innerHTML = `<strong>Q${idx+1}:</strong> ${item.question || ''}`;
+        block.appendChild(q);
+
+        // Response
+        const r = document.createElement('div');
+        r.innerHTML = `<strong>Response:</strong> ${item.response || ''}`;
+        block.appendChild(r);
+
+        // Evaluation textbox
+        const label = document.createElement('label');
+        label.textContent = 'Your Evaluation:';
+        label.setAttribute('for', `eval_${idx}`);
+        block.appendChild(label);
+
+        const textarea = document.createElement('textarea');
+        textarea.id = `eval_${idx}`;
+        textarea.addEventListener('input', function() {
+          evals[idx] = textarea.value;
+        });
+        block.appendChild(textarea);
+
+        container.appendChild(block);
+      });
+      document.getElementById('saveBtn').style.display = 'inline-block';
+    }
+
+    document.getElementById('saveBtn').addEventListener('click', function() {
+      // Build evaluation array
+      const evalArray = qaData.map((item, idx) => ({
+        image: item.image,
+        question: item.question,
+        response: item.response,
+        evaluation: evals[idx] || ''
+      }));
+      const blob = new Blob([JSON.stringify(evalArray, null, 2)], {type: 'application/json'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `eval_${originalFileName}.json`;
+      a.click();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,302 @@
+[
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_0.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any actual music notation or staves in the image—just the title and author information of a paper on Optical Music Recognition. There’s no musical score or symbols present.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_55.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any musical notation—no staves, clefs, note-heads, lyrics, or other music symbols. The image consists entirely of detection-result tables, bar charts, box-plots, and thumbnail examples, not music.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_109.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any musical staff, notes, clefs, lyrics, or other standard music‐notation symbols on the page. It’s purely text and formulae from an academic paper—no music representation is present.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_118.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any musical notation, staves, clefs, notes, or lyrics in the image—just text and data tables from a computer-vision paper. There is no music representation present.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_139.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any musical notation or staves in this image. It’s a snippet from a computer‐vision paper showing detection scores in tabular form (VOC 2007 test), not sheet music.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_181.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any musical notation, staves, clefs, notes or lyrics in that image. It’s actually a table of object categories (e.g. “accordion,” “airplane,” “ant,” etc.) with their per‐class average precision scores on the ILSVRC2013 detection test set—not a piece of sheet music.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_247.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any musical staves, notes, lyrics or other notation on those pages—just text, charts and diagrams. There’s no music representation present in the image.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_262.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any musical notation (staves, clefs, notes, rhythms, etc.) in this image—just a hand-drawn inscription of “TU Wien” on a whiteboard. There’s no music excerpt to analyze.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_282.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any musical notation or staff on the image. It’s just the front of a “bella Kakao” cocoa-powder package (brand name, product description, weight, a steaming cup of cocoa, etc.), with no music excerpt present.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_378.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don’t see any staff lines, clefs, notes or other musical symbols in this image—it appears to be just a blank (or nearly blank) sheet of paper. There’s no music notation present.",
+        "evaluation": "0"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No",
+        "evaluation": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_0.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes. The image is a page of standard Western staff‐notation music. You can see:\n\n• A treble clef on a five‐line staff  \n• A title (“Prelude in C”), composer credit (J.S. Bach), arranger (Jonathan C. Forster)  \n• Measures of evenly spaced note-groups (broken‐chord figurations)  \n• Dynamic markings (p, più f), slurs, and barlines  \n\nIn other words, it’s a printed music excerpt (specifically Bach’s Prelude in C major) in monophonic notation.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_15.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes – this is clearly a printed orchestral score, not text or a picture. You can see multiple staves labelled Fl(öte), Ob(oe), E.H.(English horn), Kl(arinet) in D/A, Bkl(in A), Fg(foon), Kfg(foon), Hrn(in F) and then the strings (1. Vl., 2. Vl., Va(iole), Vc(ello), Kb(ass)). It’s polyphonic music notation (multiple independent lines) marked “sehr schwungvoll” at rehearsal number 3.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_38.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes. This is a page of printed Western staff‐notation (sheet music). You can clearly see:\n\n• A grand staff (treble and bass clefs) with piano accompaniment  \n• A single vocal line above the accompaniment, carrying German lyrics (“Die Lo-tos-blu-me äng-stigt…”)  \n• Key signature of two flats (B-flat major / G minor) and a 6/8 meter  \n• Tempo marking “Ziemlich langsam” and dynamic markings (p, pp)  \n• Note-heads, stems, beams, slurs and chords in the piano part  \n\nIn short: it’s a vocal song (“Die Lotosblume”), notated for voice and piano in standard music notation.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_89.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes – it’s a printed music score. You can see staves with treble and bass clefs, a key signature (two sharps), time signatures, note-heads and stems, phrasing slurs, dynamics markings (p, mf, etc.), plus German lyrics under the vocal line. In other words, it’s a vocal song (“Singstimme”) with piano accompaniment (“Pianoforte”), namely Schubert’s “Das Wandern” from Die schöne Müllerin.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_183.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes. The sheet in the photograph is a piece of engraved music notation: it’s the flute part for Brahms’s “Hungarian Dance No. 5 in F♯ minor.” You can see a single-staff (monophonic) melodic line, complete with key signature, noteheads on the stave, stems, beams, slurs, dynamic markings (f, mf, mp, etc.), tempo indications (Allegro, Vivace), and barlines.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_225.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes. The photograph clearly shows standard Western music notation on staves: single melodic lines of notes (appears monophonic), bar-lines, accidentals (sharps), and dynamic markings (ff, mp). The title “Walzer II” is also visible at the bottom.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_239.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes. The image clearly shows printed music notation: a single‐staff (treble clef) flute part for Debussy’s “Clair de lune (Suite bergamasque III).” You can see the staff lines, notes, slurs, dynamic marks (p, mp, cresc., dim.), and tempo indications (“Andante très expressif,” “Tempo Rubato,” “Un poco mosso”). This is a monophonic melodic line with performance directions, but no lyrics.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_266.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes. This is a page of standard Western music notation—a four-part vocal (polyphonic) score. You can see:\n\n• Four staves labeled S./M. (soprano/mezzo), A. (alto), T./Bar. (tenor/baritone) and B. (bass)  \n• Five-line staves with treble and bass clefs  \n• Note-heads, stems and flags showing rhythm and pitch  \n• Dynamics marking “ff”  \n• Under-laid Latin lyrics (“Hac in hora…,” “quod per sortem…,” “plangite!”)  \n• A metronome marking (quarter note = 320)\n\nAll of these elements together form a polyphonic choral music excerpt.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_326.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes – it’s a printed choral score. You can see four staves labeled S(oprano), A(lto), T(enor) and B(ass), each with clefs, noteheads on the five‐line staffs, barlines and lyrics (“go, go, go… there’s no stopping me!”, “Two hundred degrees… that’s why they call me Mister Fahrenheit…”, etc.). In other words it’s a polyphonic (four-part vocal) music notation excerpt.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_389.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes. It’s a hand-drawn musical stave in treble-clef with a single melodic line (so it’s monophonic). You can clearly see:\n\n• A five-line staff  \n• A treble (G) clef at the left  \n• Four note-heads with stems (a simple sequence of single notes)  \n\nThere are no lyrics or additional voices—just a lone melody sketched on the whiteboard.",
+        "evaluation": "1"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes",
+        "evaluation": "1"
+      }
+    ]
+  }
+]

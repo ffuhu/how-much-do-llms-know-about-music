@@ -1,0 +1,639 @@
+[
+  {
+    "image_path": "./images/1_1.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/1_2.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/1_3.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/1_4.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/1_5.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_1.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_1_ins.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_2.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_3.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_3_ins.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_4.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_5.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_5_ins.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.\nTask Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "What type of notation is used in this excerpt? (e.g., modern notation, tablature, mensural notation, Korean notation, etc.)",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in two specific formats:\nKern format: This is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMusicXML format: This is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with both Kern and MusicXML formats when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\nKey signature: Whether there are any sharps or flats.\nAccidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\nMelodic structure: The shape and direction of the melody, including important pitches and phrase endings.\nHarmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, how difficult do you think it is to play the excerpt? Rate from 1 to 3, where 1 is easiest and 3 hardest.",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "In this excerpt, are the following symbols present?\nQuarter note\nWhole note\nCrescendo indicator\nC major chord\nQuarter rest\nBarlines\nMaybe a rhythm? A progression of notes?\nIs there a pattern that repeats the sequence: dotted eighth note, sixteenth note, dotted eighth note, sixteenth note? If so, which notes form it?\nCan the melody \"C D E C\" be found in the excerpt?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      },
+      {
+        "question": "Is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number)\nAre there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\nWhat clefs, if any, are present in this image of the staff?",
+        "response": "Error getting response: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat"
+      }
+    ]
+  }
+]

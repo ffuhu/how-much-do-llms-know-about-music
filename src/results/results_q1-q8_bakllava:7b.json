@@ -1,0 +1,691 @@
+[
+  {
+    "image_path": "./images/1_1.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "2. Allegretto - Piano Solo (Op. 82) by Beethoven"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "1"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "2"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "2"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "2"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "2"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "2"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "4/4"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "2"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "2"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "2"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "2"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/1_2.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "10-30"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "10-30"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "10-30"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "10-30"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "10-30"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "10-30"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "10-30"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "10-30"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "10-30"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "10-30"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "10-30"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "10-30"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/1_3.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "13-16"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "13-16"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "13-16"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "13-16"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "13-16"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "13-16"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "13-16"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "13-16"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "13-16"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "13-16"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "13-16"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "13-16"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/1_4.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "1. Allegro"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "1. Allegro"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/1_5.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "50%"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "50%"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "50%"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "50%"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "50%"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "50%"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "50%"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "50%"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "50%"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "50%"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "50%"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "50%"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_1.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "0"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "0"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "0"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "0"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "0"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "0"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "0"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "0"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "0"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "0"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "0"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_1_ins.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "0"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "0"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "0"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "0"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "0"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "0"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "0"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "0"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "0"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "0"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "0"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "0"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_2.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "10-20"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "10-20"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "10-20"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "10-20"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "10-20"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "10-20"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "10-20"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "10-20"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "10-20"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "10-20"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "10-20"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "10-20"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_3.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "128 steps needed to finish the task."
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "128 steps needed to finish the the task."
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "128 steps needed to finish the task."
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_3_ins.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "1. Analyzing the image is essential here, as it will provide necessary information about the music itself.\n2. As a visual AI assistant, I am capable of understanding the differences between monophonic, polyphonic and vocal compositions, so you can rely on my expertise in this task."
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "1. As a visual AI assistant, I am not able to listen to any audio files you might reference in your answer. Please describe any relevant details in the image that can help me understand your reasoning behind your answers."
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "1. You can use any additional information provided in the image or accompanying sources as a reference while analyzing the music excerpt, but it's crucial to answer based solely on the visual content of the image itself."
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "1. As a visual AI assistant, I am capable of understanding musical notes, rests, and other elements of music notation that are present in the image."
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "1. As a visual AI assistant, I am capable of understanding the differences between natural harmonics and sharps or flats in the musical composition."
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "1. As a visual AI assistant, I am capable of understanding the differences between the music's time signature and the number of beats per minute in the image."
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "1. As a visual AI assistant, I am capable of understanding the differences between musical dynamics such as tempo, volume, or articulation markings in the image."
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "1. As a visual AI assistant, I am capable of understanding the differences between tied and detached notes, as well as whether the music excerpt ends with a full or empty measure."
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "1. As a visual AI assistant, I am capable of understanding the differences between musical bars and measures in the image. Based on the musical notation, what is the structure and harmony of the music composition?"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "1. As a visual AI assistant, I am capable of understanding the differences between natural harmonics and sharps or flats in the musical composition."
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "1. As a visual AI assistant, I am capable of understanding the differences between musical dynamics such as tempo, volume, or articulation markings in the image."
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "1. As a visual AI assistant, I am capable of understanding the differences between musical dynamics such as tempo, volume, or articulation markings in the image."
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_4.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "19.56"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "19.56"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "19.56"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "19.56"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "19.56"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "19.56"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "19.56"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "19.56"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "19.56"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "19.56"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "19.56"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "19.56"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_5.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "Hello! I need your expertise in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any moderately paced questions I ask you based only on that excerpt. Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notification provided, can you determine which musical work this excerpt belongs to?"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "2"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "3"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "4"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "5"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "6"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "7"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "8"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "9"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "10"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "11"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "12"
+      }
+    ]
+  },
+  {
+    "image_path": "./images/2_5_ins.png",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Based solely on the musical notation provided, can you determine which musical work this excerpt belongs to? Please use the melody’s rhythmic patterns, note sequences, and any other musical clues to make your deduction.",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "What type of musical notation is used in this excerpt? Choose between: modern notation, tablature, mensural notation, Korean notation, “other notation” or “no music notation present”. Answer only with the name of the musical notation used in the excerpt.",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the Kern formats. For your information, Kern forma is a text-based format used in the Humdrum toolkit for encoding musical scores. Ensure the excerpt's musical notation is accurately encoded in the Kern syntax, capturing the pitch, rhythm, and any relevant musical details.\nMake sure you are familiar with the Kern format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the MusicXML format. For your information, MusicXML format is a structured, machine-readable format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the MusicXML format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "Please transcribe the contents of the given music excerpt in the ABC format. For your information, ABC format is a text-based format for Western music notation. Please transcribe the musical notation from the excerpt accurately in this format.\nMake sure you are familiar with the ABC format when performing the transcriptions. Provide the transcript only for what is visible in the image, even if you have more knowledge.If you do not know how to transcribe music, please say so.",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "Can you determine the tonality (key) of the given music excerpt? Please explain the steps and reasoning behind how you arrived at this conclusion.\nWhen determining the tonality, consider the following factors:\n- Key signature: Whether there are any sharps or flats.\n- Accidentals: Notes altered by sharps, flats, or naturals outside of the key signature.\n- Melodic structure: The shape and direction of the melody, including important pitches and phrase endings.\n- Harmonic implications: Some melodies imply certain harmonic progressions or tonic-dominant relationships.\nProvide a clear explanation of your process, detailing how each of these elements contributes to your conclusion about the tonality.",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what instrument do you think it is intended for? Your task is to analyze the musical notation and use the melody's structure, rhythm, and characteristics to deduce the most likely instrument the musical work was written for.",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "Based on the musical notation present in the image, what is the time signature?",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "In the given music excerpt, are the following symbols present?\n- Quarter note\n- Whole note\n- Crescendo indicator\n- C major chord\n- Quarter rest\n",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "In the given music excerpt, is there information about the speed at which the piece should be played? (e.g., tempo markings like Allegro, Andante, or a BPM number).\n",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "In the given music excerpt, are there any articulation marks indicating how the piece, or a segment, should be played? (such as ties, legato slurs, dots for staccato, or other articulation marks)\n",
+        "response": "1800 13 12 14"
+      },
+      {
+        "question": "In the given music excerpt, what clefs, if any, are present in this image of the staff?",
+        "response": "1800 13 12 14"
+      }
+    ]
+  }
+]

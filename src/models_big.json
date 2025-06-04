@@ -1,0 +1,14 @@
+[
+  {
+    "name": "gemma3:12b-it-qat"
+  },
+  {
+    "name": "gemma3:27b-it-qat"
+  },
+  {
+    "name": "llama4:scout"
+  },
+  {
+    "name": "mistral-small3.1:24b"
+  }
+]

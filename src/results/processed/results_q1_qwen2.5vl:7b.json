@@ -1,0 +1,262 @@
+[
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_0.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image you provided does not contain any musical notation or representation of music. It appears to be a document or a printout related to a research paper titled \"Optical music music recognition recognition: state-of-the-art and open issues.\" The document includes information about the authors, their affiliations, and some statistics related to the publication, but there is no musical notation or representation of music present in the image."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_55.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "No, the image you provided does not contain any music representation. It appears to be a page from a scientific paper or a technical document, with tables, graphs, and text discussing detection and average precision on the ILSVRC2013 dataset. There are no musical staffs, notes, or any other elements that would indicate the presence of music notation."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_109.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image you provided does not contain any musical notation or representation of music. It appears to be a page from a book or a document discussing machine learning and computer vision concepts, specifically related to object detection and bounding box regression. There is no musical content or staff notation visible in the image."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_118.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "No, the image does not contain any music representation. It appears to be a page from a research paper or a document discussing computer vision and machine learning, specifically related to image classification and segmentation tasks. There is no musical notation or any representation of music present in the image."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_139.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "No, the image you provided does not contain any music representation. It appears to be a page from a research paper or a document related to computer vision, specifically focusing on object detection and classification using CNNs (Convolutional Neural Networks) on the PASCAL VOC 2007 dataset. The content includes tables with numerical data and descriptions of different models and their performance metrics. There is no musical notation or any representation of music present in the image."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_181.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "No, the image you provided does not contain any musical notation. Instead, it appears to be a table listing various objects with their corresponding numerical values, possibly related to some form of classification or detection test set, as indicated by the text at the bottom of the image. This table is not related to music notation or any musical representation."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_247.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image you've provided does not contain any music representation. It appears to be a document with text and some graphs, but there are no musical staffs, notes, or any other elements that would indicate the presence of music notation. If you have another image or document that you would like me to analyze, please share it."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_262.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "No, there is no music representation in the image. The image shows a whiteboard with the text \"TU Wien\" written on it. There are no musical staffs, notes, or any other elements that would indicate the presence of music notation."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_282.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "No, the image you provided does not contain any musical notation. It is a product packaging for Bella Kakao, which is a cocoa product. There is no music excerpt or any musical representation in the image."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_378.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image you provided appears to be a blank sheet of paper. There is no music notation, lyrics, or any other textual elements present in the image. Therefore, it does not contain any kind of music representation."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_0.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image contains a musical excerpt. It is a monophonic piece, as it consists of a single melodic line without any lyrics or additional textual elements. The notation is in the form of standard Western music notation, with notes, rests, and other symbols indicating the rhythm and pitch of the melody. The piece is titled \"Prelude in C\" and is attributed to J.S. Bach, with the arrangement credited to Jonathan C. Forster. The notation includes dynamic markings and articulation signs, which are typical in musical scores."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_15.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains musical notation. It appears to be a polyphonic excerpt, as there are multiple staves with different instruments (indicated by abbreviations like Fl., Ob., E.H., etc.), each with its own melodic line. The notation includes dynamics (e.g., \"ff\" for fortissimo), articulations, and other musical symbols typical of orchestral or chamber music. The text at the top of the page, \"sehr schwungvoll,\" suggests a tempo marking, which is also common in musical scores. The presence of multiple staves and the complexity of the notation indicate that this is likely a section from a larger musical work, possibly an orchestral or chamber piece."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_38.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains music notation. It appears to be a sheet music excerpt with a single melodic line, which suggests it is a monophonic piece. The notation includes musical staffs, notes, and rests, along with some text at the top of the page. The text at the top of the page reads \"Die Lotosblume\" and includes a composer's name, \"Heine,\" and a tempo indication, \"Ziemlich langsam\" (which translates to \"Moderately slow\"). The key signature indicates F minor (F dur in German). The piece is in 4/4 time and is labeled as \"Orig. F dur\" (Original F major). The lyrics are present below the musical staff, indicating that this is a vocal piece. The lyrics are in German and are part of the song \"Die Lotosblume\" by Heinrich Heine."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_89.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains music representation. It is a sheet music excerpt for a vocal piece. The sheet includes a melody line for the voice (labeled as \"Singstimme\") and a piano accompaniment line (labeled as \"Pianoforte\"). The text at the top indicates that this is a song from the collection \"Die schöne Müllerin\" by Wilhelm Müller, set to music by Franz Schubert. The piece is labeled as \"Das Wandern\" and is part of Opus 25. The notation includes lyrics in German, which are part of the song's text."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_183.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains a musical excerpt. It is a monophonic music notation, as it consists of a single melodic line without any lyrics or performance directions. The notation is for a flute and is part of \"Hungarian Dance No 5 in F# minor\" by Johannes Brahms. The piece is transcribed by Bernard Dewagtere. The excerpt includes various musical elements such as dynamics, articulations, and tempo markings, which are typical in musical notation."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes."
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_225.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image contains musical notation. It appears to be a monophonic excerpt, as it consists of a single melodic line without any additional melodic lines or lyrics. The notation includes notes, rests, and dynamic markings such as \"ff\" (fortissimo) and \"mp\" (mezzo-piano). The text \"Walzer II\" at the bottom suggests that this is part of a larger work, possibly a waltz, and the number \"2\" might indicate it is the second part of a series. The rhythm and structure of the melody are consistent with a waltz, which typically has a 3/4 time signature and a characteristic triplet rhythm."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_239.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, there is a musical representation in the image. The image shows a sheet of music with musical notation. The notation includes staff lines, clefs, notes, and other musical symbols that are typical of sheet music. The piece is titled \"Clair de lune (Moonlight)\" from the Suite bergamasque III by Claude Debussy, and it is for the flute. The notation is monophonic, as it consists of a single melodic line."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes."
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_266.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains musical notation. It appears to be a polyphonic piece, as there are multiple staves (S./M., A., T./Bar., B.) each with their own melodic lines. The notation includes lyrics, which suggests it is a vocal piece. The lyrics are written in Latin, and the music is structured with specific time signatures and dynamics. The presence of lyrics and the structure of the music indicate that this is a vocal piece with multiple parts."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes."
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_326.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains musical notation. It appears to be a sheet music excerpt with multiple staves, which suggests it is polyphonic. The notation includes lyrics, which indicates it is a vocal piece. The lyrics are part of the song \"Don't Stop Me Now,\" as indicated at the top of the sheet. The sheet includes lyrics for the Soprano (S.), Alto (A.), Tenor (T.), and Bass (B.) parts. The lyrics are written in a way that corresponds to the melody, which is typical for vocal music. The presence of multiple staves and lyrics confirms that this is a polyphonic and vocal music excerpt."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_389.jpg",
+    "responses": [
+      {
+        "question": "Task Introduction: Hello! I need your expertise for a specific task. You are an expert in Optical Music Recognition (OMR) within the field of Computer Vision. The task involves analyzing an image which might or might not contain music notation within it. The music notation present might be monophonic, polyphonic or vocal. If present, it will be a music excerpt. Please answer any question I ask you based only on that excerpt. You can only provide information based on what is on the image, no matter how much you might know about it from other sources.Task Details: In the monophonic case, the music excerpt consists of only the musical staff with a single melodic line, without any lyrics, performance directions, or other textual elements. In the polyphonic case, there will be more than one melodic line. In the vocal case, you might also find the lyrics of the song. Your task is to analyze the musical notation, when present, and use the melody's structure, rhythm, and characteristics to answer some questions about the piece. If you are uncertain about an answer, you should clearly indicate so and explain why.Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image you provided contains a musical staff with a single melodic line, which is characteristic of a monophonic music excerpt. The staff includes a treble clef and several notes, which are typical elements of musical notation. The notes are placed on the staff, indicating the pitch of the melody. There are no lyrics or other textual elements present in the image, which aligns with the description of a monophonic music excerpt."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  }
+]

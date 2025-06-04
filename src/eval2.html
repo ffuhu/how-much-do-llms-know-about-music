@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON QA Evaluator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 2em;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .upload-section {
+      margin-bottom: 2em;
+      padding: 1em;
+      border: 2px dashed #ccc;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .qa-item {
+      border: 1px solid #ddd;
+      padding: 1.5em;
+      margin-bottom: 2em;
+      border-radius: 8px;
+      background-color: #fafafa;
+    }
+    .image-container {
+      margin-bottom: 1em;
+    }
+    .image-container img {
+      max-width: 400px;
+      max-height: 300px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .question-section, .response-section {
+      margin-bottom: 1em;
+    }
+    .question-section h4, .response-section h4 {
+      margin: 0 0 0.5em 0;
+      color: #333;
+    }
+    .question-text, .response-text {
+      background-color: white;
+      padding: 0.8em;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    .evaluation-section {
+      margin-top: 1em;
+    }
+    .evaluation-section label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+      color: #555;
+    }
+    .evaluation-textarea {
+      width: 100%;
+      min-height: 80px;
+      padding: 0.8em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      resize: vertical;
+    }
+    .save-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 2em;
+    }
+    .save-btn:hover {
+      background-color: #0056b3;
+    }
+    .save-btn:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    .progress {
+      margin-top: 1em;
+      font-weight: bold;
+      color: #666;
+    }
+    .qa-header {
+      background-color: #e9ecef;
+      padding: 0.5em 1em;
+      margin: -1.5em -1.5em 1em -1.5em;
+      border-radius: 8px 8px 0 0;
+      font-weight: bold;
+      color: #495057;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>JSON QA Evaluator</h1>
+
+    <div class="upload-section">
+      <input type="file" id="jsonFile" accept=".json">
+      <p>Upload your JSON file to begin evaluation</p>
+    </div>
+
+    <div id="progressInfo" class="progress" style="display:none;"></div>
+    <div id="qaContainer"></div>
+    <button class="save-btn" id="saveBtn" style="display:none;">Save Evaluations</button>
+  </div>
+
+  <script>
+    let originalFileName = '';
+    let qaData = [];
+    let evals = {};
+
+    document.getElementById('jsonFile').addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      originalFileName = file.name.replace(/\.json$/i, '');
+      const reader = new FileReader();
+
+      reader.onload = function(evt) {
+        try {
+          qaData = JSON.parse(evt.target.result);
+          if (!Array.isArray(qaData)) {
+            alert('Expected a JSON array at the top level.');
+            return;
+          }
+          renderQA();
+        } catch (err) {
+          alert('Invalid JSON: ' + err.message);
+        }
+      };
+
+      reader.readAsText(file);
+    });
+
+    function renderQA() {
+      const container = document.getElementById('qaContainer');
+      const progressInfo = document.getElementById('progressInfo');
+
+      container.innerHTML = '';
+      evals = {};
+
+      let totalQuestions = 0;
+      qaData.forEach(item => {
+        if (item.responses && Array.isArray(item.responses)) {
+          totalQuestions += item.responses.length;
+        }
+      });
+
+      progressInfo.textContent = `Total questions to evaluate: ${totalQuestions}`;
+      progressInfo.style.display = 'block';
+
+      let questionIndex = 0;
+
+      qaData.forEach((item, itemIdx) => {
+        if (!item.responses || !Array.isArray(item.responses)) return;
+
+        item.responses.forEach((qa, qaIdx) => {
+          const qaItem = document.createElement('div');
+          qaItem.className = 'qa-item';
+
+          // Header with question number
+          const header = document.createElement('div');
+          header.className = 'qa-header';
+          header.textContent = `Question ${questionIndex + 1} of ${totalQuestions}`;
+          qaItem.appendChild(header);
+
+          // Image (if present)
+          if (item.image_path) {
+            const imageContainer = document.createElement('div');
+            imageContainer.className = 'image-container';
+
+            const img = document.createElement('img');
+            img.src = item.image_path;
+            img.alt = 'QA Image';
+            img.onerror = function() {
+              this.style.display = 'none';
+              const errorMsg = document.createElement('p');
+              errorMsg.textContent = `Image not found: ${item.image_path}`;
+              errorMsg.style.color = '#666';
+              errorMsg.style.fontStyle = 'italic';
+              imageContainer.appendChild(errorMsg);
+            };
+
+            imageContainer.appendChild(img);
+            qaItem.appendChild(imageContainer);
+          }
+
+          // Question
+          const questionSection = document.createElement('div');
+          questionSection.className = 'question-section';
+
+          const questionHeader = document.createElement('h4');
+          questionHeader.textContent = 'Question:';
+          questionSection.appendChild(questionHeader);
+
+          const questionText = document.createElement('div');
+          questionText.className = 'question-text';
+          questionText.textContent = qa.question || 'No question provided';
+          questionSection.appendChild(questionText);
+
+          qaItem.appendChild(questionSection);
+
+          // Response
+          const responseSection = document.createElement('div');
+          responseSection.className = 'response-section';
+
+          const responseHeader = document.createElement('h4');
+          responseHeader.textContent = 'Response:';
+          responseSection.appendChild(responseHeader);
+
+          const responseText = document.createElement('div');
+          responseText.className = 'response-text';
+          responseText.textContent = qa.response || 'No response provided';
+          responseSection.appendChild(responseText);
+
+          qaItem.appendChild(responseSection);
+
+          // Evaluation textbox
+          const evalSection = document.createElement('div');
+          evalSection.className = 'evaluation-section';
+
+          const label = document.createElement('label');
+          label.textContent = 'Your Evaluation:';
+          label.setAttribute('for', `eval_${itemIdx}_${qaIdx}`);
+          evalSection.appendChild(label);
+
+          const textarea = document.createElement('textarea');
+          textarea.className = 'evaluation-textarea';
+          textarea.id = `eval_${itemIdx}_${qaIdx}`;
+          textarea.placeholder = 'Enter your evaluation of this question-response pair...';
+
+          textarea.addEventListener('input', function() {
+            const key = `${itemIdx}_${qaIdx}`;
+            evals[key] = textarea.value;
+          });
+
+          evalSection.appendChild(textarea);
+          qaItem.appendChild(evalSection);
+
+          container.appendChild(qaItem);
+          questionIndex++;
+        });
+      });
+
+      document.getElementById('saveBtn').style.display = 'inline-block';
+    }
+
+    document.getElementById('saveBtn').addEventListener('click', function() {
+      // Build evaluation array
+      const evalArray = [];
+
+      qaData.forEach((item, itemIdx) => {
+        if (!item.responses || !Array.isArray(item.responses)) return;
+
+        const itemEval = {
+          image_path: item.image_path,
+          responses: []
+        };
+
+        item.responses.forEach((qa, qaIdx) => {
+          const key = `${itemIdx}_${qaIdx}`;
+          itemEval.responses.push({
+            question: qa.question,
+            response: qa.response,
+            evaluation: evals[key] || ''
+          });
+        });
+
+        evalArray.push(itemEval);
+      });
+
+      const blob = new Blob([JSON.stringify(evalArray, null, 2)], {type: 'application/json'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `eval_${originalFileName}.json`;
+      a.click();
+
+      alert('Evaluations saved successfully!');
+    });
+  </script>
+</body>
+</html>

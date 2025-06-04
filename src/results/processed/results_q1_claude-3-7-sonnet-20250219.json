@@ -1,0 +1,262 @@
+[
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_0.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image does not contain any musical notation or representation of music. What we see is the cover page of a research paper titled \"Optical music recognition: state-of-the-art and open issues\" published in October 2012. The paper appears to be about Optical Music Recognition (OMR) as a field of study, but the image itself does not contain any actual sheet music, musical staffs, notes, or any other form of musical notation that could be analyzed.\n\nThe page shows publication information, including author details for four researchers with their affiliations and publication statistics, along with citation counts (28 citations) and read counts (386 reads) for this paper. This is a ResearchGate page for an academic article about OMR technology rather than an example of music that could be analyzed using OMR techniques."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_55.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I've examined the image carefully, and there is no music notation or representation present in this image. What I see instead is a page from a computer vision research paper about object detection. The image contains:\n\n1. A data table with performance metrics for various object categories (aero, bike, bird, etc.)\n2. Graphs showing mean average precision (mAP) results for the ILSVRC2013 detection test\n3. A box plot comparing different computer vision methods\n4. A grid of small thumbnail images at the bottom that appear to be from an object detection dataset\n\nThere are no musical staffs, notes, clefs, or any other elements of musical notation in this image. The content is entirely related to computer vision and object recognition research."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_109.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "There is no music notation or any kind of musical representation present in this image. The image shows a page from an academic paper or publication discussing computer vision concepts, specifically about object detection methods using SVMs (Support Vector Machines), CNN (Convolutional Neural Networks), and bounding-box regression. The content is focused on technical aspects of machine learning for computer vision, including discussions about positive vs. negative examples, fine-tuning, and mathematical formulations. There are no musical staffs, notes, or any other form of musical notation visible in this document."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_118.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image does not contain any music notation or musical representation. What you've shared appears to be a page from an academic paper or publication related to computer vision research. The page contains tables (specifically Table 4 and Table 5) with numerical data about model performance, and text discussing computer vision techniques related to R-CNN (Region-based Convolutional Neural Networks), segmentation, and feature extraction. The content is focused on technical details of computer vision algorithms and their performance metrics on datasets like ILSVRC2013 and VOC 2011, not musical notation or scores."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_139.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image you've shared does not contain any music notation or musical representation. What I can see is a data table showing detection average precision percentages for various CNN (Convolutional Neural Network) models on the VOC 2007 test dataset. The table shows performance metrics for different object categories like aero, bike, bird, boat, bottle, etc. This appears to be from a computer vision research paper discussing object detection algorithms rather than anything related to music or musical notation."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_181.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image does not contain any music notation or musical representation. What I see is a data table (labeled as \"Table 8\") that shows per-class average precision percentages for various object categories on what appears to be the ILSVRC2013 detection test set. The table lists various objects alphabetically (from \"accordion\" to \"zebra\") with their corresponding precision percentages. While some musical instruments are mentioned in the list (such as banjo, piano, guitar, flute, french horn, harmonica, harp, oboe, saxophone, trombone, trumpet, and violin), there is no actual musical notation, staff, melody, or sheet music present in the image."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_247.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "After analyzing the image, I don't see any musical notation or music representation present. The image shows printed document pages with what appears to be technical or academic content. There are some diagrams or charts visible (triangular/trapezoidal shapes in the middle section and what looks like a schematic or flow diagram on the right side), but none of these represent musical notation. There is also a partial view of what seems to be a telephone or calculator keypad in the upper left corner of the image. No musical staff, notes, or any form of musical representation is visible in this document."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_262.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image does not contain any musical notation or music representation. What I can see is simply the word \"TU WIEN\" written in an outlined, sketch-like style at the top of what appears to be a white or light-colored surface (possibly a whiteboard or paper). There are no musical staffs, notes, clefs, or any other elements of musical notation present in this image. The image contains text only, with no musical content that could be analyzed through Optical Music Recognition."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_282.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image does not contain any music notation or musical representation. This is a photograph of a cocoa (Kakao) product box from the brand \"bella\". The package shows a 250g box of cocoa powder with the German description \"Fein & aromatisch\" (Fine & aromatic). The package displays a cup of prepared cocoa drink and some cocoa powder. There are also certifications visible, including \"Premium Quality\" and \"UTZ Certified\" logos. No musical staff, notes, or any form of musical notation appears in this image."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/a_378.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "I don't see any music notation in this image. The image appears to show a blank or mostly blank white sheet of paper. There are no musical staffs, notes, clefs, or any other elements of musical notation visible. A small portion of what seems to be someone's finger is visible at the bottom of the image holding the paper, and there appears to be a slight red color visible at the edge, but no musical content is present for me to analyze."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "No"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_0.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains musical notation. This is a monophonic musical score titled \"Prelude in C\" by J.S. Bach, transcribed/arranged by Jonathan C. Forster. \n\nThe score shows 15+ measures of music written in treble clef with a time signature of 4/4 (common time, indicated by the C at the beginning). The piece consists of a continuous flowing melodic line of sixteenth notes with consistent arpeggiated patterns. \n\nThere are dynamic markings throughout including \"p\" (piano/soft) at the beginning and various \"più f\" (more forte/louder) indications. The music appears to be organized in groups of notes connected by slurs, creating a consistent pattern that's characteristic of Bach's preludes.\n\nThe piece is written in C major initially, though there are some accidentals (sharps and flats) that appear in later measures, suggesting possible brief modulations or harmonic changes. Each system is numbered (3, 6, 9, 12, 15) at the beginning of the line to help the performer keep track of their place in the music."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_15.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains an orchestral score excerpt. This is a polyphonic musical composition with multiple instrumental parts shown in standard music notation. The score displays:\n\n1. Various orchestral instruments labeled on the left:\n   - Fl. (Flute)\n   - Ob. (Oboe)\n   - E.H. (English Horn)\n   - Kl. in D and Kl. in A (Clarinets in D and A)\n   - Bkl. in A (Bass Clarinet in A)\n   - Fg. (Bassoon)\n   - Kfg. (Contrabassoon)\n   - Hrn. in F (Horn in F)\n   - 1.Vl. and 2.Vl. (First and Second Violins)\n   - Br. (Viola)\n   - Vlc. (Cello)\n   - Kb. (Double Bass)\n\n2. The score shows:\n   - Key signatures with multiple sharps\n   - Dynamic markings (ff, mf, p, fp)\n   - Performance directions in German, including \"sehr schwungvoll\" (very swinging/spirited)\n   - \"hervortr.\" markings (abbreviation for \"hervortreten\" meaning \"stand out/prominent\")\n   - Section number \"3\" in a box at the top\n   - Various articulation markings and phrasing\n\nThe music appears to be from a German orchestral composition with complex harmonies, featuring many accidentals and dynamic contrasts between different instrument groups."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_38.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains a musical score of a vocal piece titled \"Die Lotosblume\" (The Lotus Flower), which is listed as number VII (7) on page 17 of what appears to be a music collection. The piece is credited to Heine (Heinrich Heine, who wrote the poem) and is marked as \"Orig. F dur\" (originally in F major).\n\nThe score shows a vocal part (top staff) with German lyrics underneath and a piano accompaniment (middle and bottom staves). The tempo marking is \"Ziemlich langsam\" (Rather slowly) with a dynamic marking of \"p\" (piano/soft). The piece is in 6/4 time signature and is written in E-flat major (indicated by the three flats in the key signature).\n\nThe visible lyrics include phrases such as \"Die Lotosblume ängstigt,\" \"sich vor der Sonne Pracht,\" \"und mit gesenk-tem,\" \"Haup-te er-war-tet sie träu-mend die Nacht,\" \"Der Mond, der ist ihr Buh-le,\" and \"er weckt sie mit sei-nem.\"\n\nThis is a polyphonic composition with the melody in the vocal line and harmonic support in the piano part, which features rich chords and a flowing accompaniment pattern typical of German Lieder."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_89.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, this image contains a detailed musical score of \"Das Wandern\" (The Wandering), which is the first song from Franz Schubert's song cycle \"Die schöne Müllerin\" (The Beautiful Miller's Daughter), Op. 25. \n\nThe score shows:\n- A vocal part (Singstimme) in the treble clef\n- A piano accompaniment (Pianoforte) with both treble and bass clefs\n- The key signature is B major (3 sharps)\n- Time signature is 2/4\n- Tempo marking is \"Mäßig geschwind\" (moderately fast)\n- The lyrics appear under the vocal line, with 5 verses shown\n- Dynamic markings including mf (mezzo-forte) and p (piano)\n\nThe piece is polyphonic, consisting of:\n1. A vocal melodic line with lyrics\n2. A piano part with running sixteenth notes in the right hand\n3. A bass line with quarter notes in the left hand, creating a steady rhythmic pulse\n\nThe structure shows repeated musical material, with the song having a strophic form (same music repeated for different verses of text). The piano introduction establishes the wandering, flowing character before the voice enters."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_183.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains a sheet of music notation. It's a flute part for \"Hungarian Dance No 5 in F# minor\" (WoO 1, n°5) by Johannes Brahms (1869), transcribed by Bernard Dewagtere. \n\nThe music is written in standard notation on a five-line staff. It appears to be a monophonic piece (single melodic line) arranged for flute. The piece begins with an \"Allegro\" tempo marking and later has a \"Vivace\" section. The notation includes various dynamic markings (f, mf, mp, sf) and articulation marks throughout the score.\n\nThe music has three sharps in the key signature (consistent with F# minor). The score shows several sections of the dance with varying rhythmic patterns, including sixteenth note runs, dotted rhythms, and some accented notes. There are also performance directions like \"leggiero\" (lightly) and \"poco rit.\" (slightly slowing down).\n\nThis is a transcription of one of Brahms' famous Hungarian Dances, adapted specifically for flute performance."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_225.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains musical notation. This is a section of sheet music for a piece titled \"Walzer II\" (Waltz II). The image shows several systems (lines) of monophonic music notation.\n\nThe music appears to be in triple meter (typical for a waltz) with various rhythmic patterns. There are different dynamic markings visible in the score, including \"ff\" (fortissimo) in the top system and \"mp\" (mezzo-piano) in a lower system.\n\nThe notation includes various musical elements such as:\n- Quarter notes and eighth notes\n- Sharp accidentals (#)\n- Slurs connecting some notes\n- A repeat sign visible at the bottom left with \"2.\" marking, indicating a second ending\n- Bar lines dividing the measures\n\nThe piece appears to have multiple sections with different dynamic levels, suggesting contrasting musical characters within the waltz structure."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_239.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image shows a sheet of music notation. This is a flute arrangement of \"Clair de lune (Moonlight)\" from \"Suite bergamasque III\" by Claude Debussy (1890), transcribed by Bernard Dewagtere.\n\nThe music is monophonic (single melodic line) written for flute, as indicated at the left side of the staff. The piece has specific performance directions including:\n- \"Andante très expressif\" (tempo marking at the beginning)\n- \"Tempo Rubato\" (in the middle section)\n- \"Un poco mosso\" (towards the end)\n- Various dynamic markings (p, mp) throughout\n\nThe notation shows a flowing, lyrical melody typical of Debussy's impressionistic style, with many eighth and sixteenth notes creating a fluid, dreamy quality appropriate for a piece titled \"Moonlight.\" The music is written in a key with two sharps (likely D major or B minor).\n\nThe score appears to be from free-scores.com, as indicated at the top of the page, and includes copyright information at the bottom (©2011 Dewagtere)."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_266.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Yes, the image contains a polyphonic vocal music score. This is a choral piece written for four vocal parts:\n\n1. S./M. (Soprano/Mezzo)\n2. A. (Alto)\n3. T./Bar. (Tenor/Baritone)\n4. B. (Bass)\n\nThe score is written in a flat key signature (one flat, suggesting F major or D minor). The excerpt shows three numbered sections (measures 76, 85, and 92) of the composition. The piece includes Latin lyrics \"Hac in hora sine mora corde pulsum tangite; quod per sortem sternit fortem, mecum omnes plangite!\" \n\nThe music begins with a forte fortissimo (ff) marking. The final section (measure 92) has a tempo marking of quarter note = 320 and features sustained whole notes with the text \"plangite\" being sung across multiple measures.\n\nThe notation shows a combination of half notes, quarter notes, whole notes, and rests throughout the excerpt. The piece appears to be a choral work in a traditional Western classical or sacred music style."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_326.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "Error getting response: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Output blocked by content filtering policy'}}"
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  },
+  {
+    "image_path": "/home/felix/Scratch/01_music_llms/how-much-do-llms-know-about-music/src/images/q1/b_389.jpg",
+    "responses": [
+      {
+        "question": "Looking at the visual information on the image, can you find any kind of music representation in it?",
+        "response": "The image does contain a music representation, but it's quite unique as it appears to be created with wire or thin metal material shaped into musical notation symbols against a white background. \n\nI can see:\n- A treble clef (G clef) at the beginning of the staff\n- Five horizontal lines representing a musical staff\n- What appears to be three eighth notes connected by beams\n- What might be a quarter note or half note\n- A barline at the end\n\nThis is an artistic representation of musical notation rather than conventional printed sheet music. The notes are three-dimensional wire sculptures formed into the shapes of musical symbols. While this is certainly a representation of music notation, it's not traditional sheet music that would be used for performance, but rather an artistic interpretation of musical symbols."
+      },
+      {
+        "question": "Please answer only with “Yes”, if there is any kind of music representation on the image, or “No”, if there is not.",
+        "response": "Yes"
+      }
+    ]
+  }
+]
